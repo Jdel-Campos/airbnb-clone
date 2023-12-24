@@ -1,0 +1,13 @@
+(  ) Fazer o função de aquisição da Api de Calling Code;
+(  ) Implementar a lógica do input, para quando um tiver ativado outra ficar sem borda e vice versa;
+(  ) Implementar a lógica do campo Country / Region, para que fique aparecendo um Calling Code fixo e depois ter a opção de mudar para qualquer região;
+(  ) Desenvolver a lógica para que quando clicar fora do menu ou apertar esc, ele fechar;
+(  ) Desenvolver a lógica para que quando clicar fora do modal ou apertar esc, ele fechar;
+(  ) Desenvolver a lógica para que quando selecionarmos/clicarmos em qualquer campo/valor do menu, ele fechar quando o modal abrir oou quando ouver um direcionamento de páginas;
+
+
+
+APIs para usar na aplicação:
+
+-> API de Idiomas = Deepl ou LibreTranslate
+-> API de Calling Code = Countryapi ou REST Countries (Rapid)

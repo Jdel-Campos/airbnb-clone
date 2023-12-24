@@ -49,7 +49,9 @@ const RegisterModal = () => {
                 <InputPhone id='phone' label='Phone number' disable={isLoading} register={register} errors={errors} required />
            </form>
            <div>
-            <p className='text-xs'> We’ll call or text you to confirm your number. Standard message and data rates apply. <b className='underline cursor-pointer'> Privacy Policy  </b></p>
+            <p className='text-xs'> We’ll call or text you to confirm your number. Standard message and data rates apply. </p>
+            <p className='text-xs underline cursor-pointer font-bold'>  Privacy Policy </p>
+
            </div>
         </div>
     )
@@ -58,7 +60,12 @@ const RegisterModal = () => {
 
     const footerContent = (
         <div className='flex flex-col gap-4 mt-3'>
-            <hr />
+            <div className='flex gap-4 justify-center items-center'>
+                <div className='w-2/3 h-[0.25px] border border-b-neutral-300'></div>
+                <div className='text-sm'> or </div>
+                <div className='w-2/3 h-[0.25px] border border-b-neutral-300'></div>
+            </div>
+
             <Button outline label='Continue with Facebook' icon={AiFillFacebook} onClick={() => {}} />
             <Button outline label='Continue with Google' icon={FcGoogle} onClick={() => {}} />
             <Button outline label='Continue with Apple' icon={AiFillApple} onClick={() => {}} />
