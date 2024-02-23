@@ -45,8 +45,12 @@ const RegisterModal = () => {
         <div className='flex flex-col gap-2 scroll-auto'>
            <Heading title='Welcome to Airbnb'/>
            <form className='border rounded-md'>
-                <InputCountryRegion id='country' label='Country / Region' disable={isLoading} register={register} errors={errors} required />
-                <InputPhone id='phone' label='Phone number' disable={isLoading} register={register} errors={errors} required />
+                <div>
+                    <InputCountryRegion id='country' label='Country / Region' disable={isLoading} register={register} errors={errors} required />
+                </div>
+                <div>
+                    <InputPhone id='phone' label='Phone number' disable={isLoading} register={register} errors={errors} required />
+                </div>
            </form>
            <div>
             <p className='text-xs'> We’ll call or text you to confirm your number. Standard message and data rates apply. </p>
